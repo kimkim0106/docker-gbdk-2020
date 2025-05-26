@@ -8,8 +8,6 @@ RUN apt-get update && apt-get install -y \
     tar \
     && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /opt/gbdk
-
 # Download and extract GBDK-2020 by TARGETARCH
 RUN if [ "$TARGETARCH" = "arm64" ]; then \
         GBDK_URL="https://github.com/gbdk-2020/gbdk-2020/releases/download/4.4.0/gbdk-linux-arm64.tar.gz"; \
