@@ -7,11 +7,11 @@ Docker container for Game Boy development using [GBDK-2020](https://github.com/g
 ### Build the Docker image
 
 ```bash
-docker build -t docker-gbdk-2020:4.3.0 .
+docker build -t docker-gbdk-2020:4.4.0 .
 ```
 
 ### Run the container
 
 ```bash
-docker run -it --rm -v "$(pwd):/work" -w /work docker-gbdk-2020:4.3.0
+docker run -it --rm -v "$(pwd):/work" -w /work docker-gbdk-2020:4.4.0
 ```
