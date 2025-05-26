@@ -14,7 +14,7 @@ RUN mkdir -p /opt/gbdk
 RUN if [ "$TARGETARCH" = "arm64" ]; then \
         GBDK_URL="https://github.com/gbdk-2020/gbdk-2020/releases/download/4.4.0/gbdk-linux-arm64.tar.gz"; \
         GBDK_SHA256="4b1c2546ecdee56d622c0c48b843bd7efc2a14fc5a1ac61837c0467006b10fe2"; \
-    elif [ "$TARGETARCH" = "amd64" ] || [ "$TARGETARCH" = "x86_64" ]; then \
+    elif [ "$TARGETARCH" = "amd64" ]; then \
         GBDK_URL="https://github.com/gbdk-2020/gbdk-2020/releases/download/4.4.0/gbdk-linux64.tar.gz"; \
         GBDK_SHA256="8a292e767610ccfa73c2c14d73e7900075b425f68329f1a8eb7697015915edad"; \
     else \
