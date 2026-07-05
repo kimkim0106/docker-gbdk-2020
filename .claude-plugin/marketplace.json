@@ -1,0 +1,14 @@
+{
+  "name": "docker-gbdk-2020",
+  "description": "Claude Code plugins for Game Boy development with the docker-gbdk-2020 Docker image (GBDK-2020 toolchain).",
+  "owner": {
+    "name": "kimkim0106"
+  },
+  "plugins": [
+    {
+      "name": "gbdk-build",
+      "source": "./plugins/gbdk-build",
+      "description": "Build Game Boy ROMs with the docker-gbdk-2020 Docker image (GBDK-2020 toolchain). No local GBDK install required."
+    }
+  ]
+}
