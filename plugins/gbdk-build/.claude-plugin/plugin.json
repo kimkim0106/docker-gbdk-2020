@@ -1,0 +1,9 @@
+{
+  "name": "gbdk-build",
+  "version": "0.1.0",
+  "description": "Build Game Boy ROMs with the docker-gbdk-2020 Docker image (GBDK-2020 toolchain).",
+  "author": {
+    "name": "kimkim0106"
+  },
+  "homepage": "https://github.com/kimkim0106/docker-gbdk-2020"
+}

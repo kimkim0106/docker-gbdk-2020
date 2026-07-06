@@ -15,3 +15,15 @@ docker build -t docker-gbdk-2020:4.5.0 .
 ```bash
 docker run -it --rm -v "$(pwd):/work" -w /work docker-gbdk-2020:4.5.0
 ```
+
+## Claude Code plugin
+
+This repository is also a [Claude Code](https://claude.com/claude-code) plugin
+marketplace. The `gbdk-build` plugin teaches Claude Code how to build Game Boy
+ROMs with this Docker image, so any project can use it without a local GBDK
+install.
+
+```
+/plugin marketplace add kimkim0106/docker-gbdk-2020
+/plugin install gbdk-build@docker-gbdk-2020
+```
